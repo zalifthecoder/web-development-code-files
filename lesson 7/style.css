@@ -1,0 +1,19 @@
+/*External CSS*/
+h3{
+    color: chartreuse;
+}
+h4{
+    color: darkgrey;
+}
+#h42{
+    color: darkslategrey;
+}
+.content{
+    color: crimson;
+}
+*{
+    font-family:'arial';
+}
+h5,h6{
+    color: orange;
+}
