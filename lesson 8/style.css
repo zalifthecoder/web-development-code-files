@@ -1,0 +1,13 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url("https://th.bing.com/th/id/OIP.NSqpW0ylYyjWXR_6k4pqygHaDt?w=900&h=450&rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    margin: 3rem;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    text-align: center;
+}
