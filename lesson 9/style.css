@@ -1,0 +1,25 @@
+h1{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: cursive;
+}
+h2{
+    text-decoration: overline;
+    text-transform: lowercase;
+    font-family: fantasy;
+}
+h3{
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: monospace;
+}
+h4{
+    text-decoration: line-through;
+    text-transform: none;
+    font-family: sans-serif;
+}
+h5{
+    text-decoration: overline underline;
+    text-transform: uppercase;
+    font-family: Georgia;
+}
