@@ -2,5 +2,5 @@ body{
     font-family: cursive;
     text-align: center;
     color: #003C43;
-    background: linear-gradient( right, #135D66,#77B0AA);
+    background: linear-gradient( to right, #135D66,#77B0AA);
 }

@@ -1,9 +1,16 @@
+body {
+    background: linear-gradient(to bottom, #E5989B, #B5828C);
+    background-repeat: no-repeat;
+    height: 95vh;
+}
 .container {
     margin: auto;
     background: #FFB4A2;
     max-width: 350px;
     padding: 10px;
     border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
  
 }
 input[type="text"],
@@ -39,4 +46,8 @@ input[type='radio']{
     display: flex;
     color: #000;
 
+}
+fieldset{
+    border: 2px solid #B5828C;
+    border-radius: 10px;
 }
