@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 10</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .bf::before{
+        content: "🚀";
+    }
+    .p1::first-letter{
+        font-size: 42px;
+        color: blueviolet;
+    }
+    .p2{
+        text-decoration: underline;
+
+    }
+    .p2::first-letter{
+        font-size: 42px;
+        color: aqua;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a::after{
+        content: "🌌";
+    }
+    li:nth-child(3){
+        background-color: aquamarine;
+        color: black;
+    }
+
+</style>
+<body>
+    <h1>Welcome to the Space Explorer's Club</h1>
+    <ul >
+        <li class="bf">Moon Missions</li>
+        <li class="bf">Mars Rovers</li>
+        <li class="bf">International Space Station</li>
+        <li class="bf">Telescopes and Stars</li>
+        <li class="bf">Black Holes Mysteries</li>
+    </ul>
+    <p class="p1">space exploration has always captivated human imagination. It's a journey to the unknown!</p>
+    <p class="p2">From the Moon to distant galaxies, we continue to explore the vastness of space</p>
+<a href="#">Join our Mission</a>
+<a href="#">Latest Space News</a>
+<a href="#">Gallery of the Universe</a>
+</body>
+</html>
