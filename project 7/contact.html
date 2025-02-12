@@ -19,6 +19,9 @@
         }
 
         body {
+            background-image: url("https://i.pinimg.com/originals/2b/2d/d4/2b2dd422865173db1904e4b4f33db26c.jpg");
+            background-size: cover;
+            background-attachment: fixed;
             font-family: 'font1', 'font2';
 
         }
@@ -55,7 +58,8 @@
         nav a:hover {
             transform: translateY(-5px);
             text-decoration: none;
-            background-color: #89e5fc;
+            background-color: darkorchid;
+            opacity: 0.5;
         }
 
         .post h2 {
@@ -63,7 +67,7 @@
         }
 
         .post p {
-            font-family: "font1";
+            font-family: "font2";
         }
 
         .post {
@@ -74,10 +78,16 @@
             box-shadow: 0 4px 6px #09122C;
             border-radius: 10px;
             flex: 1;
-            background-color: #89e5fc;
+            background-color: darkorchid;
+            opacity: 0.8;
         }
-        iframe{
-            
+
+        iframe {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 2rem auto;
+            border-radius: 5px;
         }
     </style>
 </head>
