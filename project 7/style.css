@@ -11,6 +11,7 @@
 }
 
 body {
+    color: black;
     font-family: 'font1', 'font2';
     margin: 0;
     padding: 0;
@@ -26,7 +27,6 @@ header h1 {
     border-radius: 15px;
     margin: 1rem auto;
     max-width: 1150px;
-
 }
 
 nav {
@@ -54,22 +54,28 @@ nav a:hover {
     text-decoration: none;
     background-color: #6f6c6b;
 }
-.post h2{
+
+.post h2 {
     font-family: 'font1';
 }
+
 .post2 h2 {
     font-family: 'font1';
 }
-.post p{
+
+.post p {
     font-family: 'font2';
 }
+
 .post2 p {
     font-family: 'font2';
 }
-.list li{
+
+.list li {
     font-family: 'font2';
 }
-.list b{
+
+.list b {
     font-family: 'font1';
 }
 
@@ -82,7 +88,7 @@ nav a:hover {
     border-radius: 10px;
     flex: 1;
     background-color: white;
-    opacity: 0.5;
+    position: relative;
 }
 
 .post2 {
@@ -94,5 +100,4 @@ nav a:hover {
     border-radius: 10px;
     flex: 1;
     background-color: white;
-    opacity: 0.5;
 }
