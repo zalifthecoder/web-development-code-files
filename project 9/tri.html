@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santorini</title>
+    <style>
+        @font-face {
+            font-family: "font1";
+            src: url("PlaywritePE-VariableFont_wght.ttf");
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        body {
+            font-family: "font1";
+            margin: 0;
+            padding: 0;
+            background: url("images/img2.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: #070707;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4A96F0, #7DCBFD, #FB8C3F, #467DCE, #E59F6B);
+            background-size: 200% 200%;
+            animation: gradientAnimation 5s linear infinite;
+            color: white;
+            padding: 3px;
+            font-size: 28px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            background: #fda005;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            border-radius: 30px;
+            margin: 20px auto;
+            max-width: 60%;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 6px 16px;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.293);
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.553);
+        }
+
+        .area {
+            max-width: 1100px;
+            margin: 3rem auto;
+            padding: 2rem;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+            background: linear-gradient(135deg, #4A96F0, #7DCBFD, #FB8C3F, #467DCE, #E59F6B);
+            background-size: 200% 200%;
+            opacity: 0.8;
+            animation: gradientAnimation 10s ease-in-out infinite;
+        }
+
+        .post {
+            margin-bottom: 2rem;
+            padding: 2rem;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .post p {
+            color: black;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        .post h2 {
+            color: #f17953;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #4A96F0, #7DCBFD, #FB8C3F, #467DCE, #E59F6B);
+            background-size: 200% 200%;
+            animation: gradientAnimation 5s linear infinite;
+            color: white;
+            padding: 3px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        footer p {
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Traditions In Greece.</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="pla.html">Iconic Places</a>
+
+    </nav>
+    <main class="area">
+        <div class="post">
+            <h2>Often Traditons Followed In Greece.</h2>
+            <p>Greece is a country with a rich history and a wealth of unique traditions. Greek Easter is a significant
+                event, marked
+                by traditions like dyeing red eggs, attending midnight church services, and feasting on roast lamb and
+                "magiritsa" soup.
+                Name Days, often celebrated with more importance than birthdays, involve gatherings and well-wishes from
+                friends and
+                family. The tradition of plate smashing, associated with joyous events, symbolizes good luck and wards
+                off evil spirits.
+                Carnival, or Apokries, is a pre-Lenten festival with parades, costumes, music, and dancing, similar to
+                Mardi Gras. Greek
+                music and dance, including folk dances like the Syrtaki and Kalamatianos, are integral to social
+                gatherings and
+                celebrations. On New Year's Day, Greeks bake a special cake called Vasilopita with a coin hidden inside,
+                and the person
+                who finds the coin in their slice is believed to have good luck for the year. Many regions have their
+                own religious
+                festivals dedicated to local patron saints, featuring church services, processions, and communal feasts.
+                Greek weddings
+                are full of traditions, such as the crowning of the bride and groom with "stefana," the dance of Isaiah,
+                and the
+                ceremonial breaking of bread. These traditions are deeply rooted in history and religion and play a
+                significant role in
+                the cultural identity of the Greek people.</p>
+        </div>
+    </main>
+    <footer>
+        <p>Santorni, Greece</p>
+    </footer>
+</body>
+
+</html>
