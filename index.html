@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
-    <h1>Javascript String Methods</h1>
+    <h2>Javscript Objects</h2>
+    <p id="n"></p>
     <script>
-        var str = 'HeLlO wOrLd';
-        document.write(str.toUpperCase() + "<br>");
-        document.write(str.toLowerCase() + "<br>");
-        document.write(str.startsWith('H') + '<br>');
-        var w = 'There is an error';
-        var n = new RegExp ('error');
-        var res = n.test(w);
-        document.write (res);
+        var person ={
+            firstname:"Z",
+            Age:13,
+        };
+        document.getElementById("n").innerHTML = person.firstname +" is " + person.Age + " Years Old";
 
     </script>
 </body>
-
 </html>
