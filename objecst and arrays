@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Object</h1>
+    <script>
+        var person = { name: "John", age: 16, city: "Arizona", };
+        document.write(person.name + " is " + person.age + " years old and lives in " + person.city + "<br>");
+
+        document.write(Math.round(4.7) + "<br>");
+        document.write(Math.random() + "<br>");
+        document.write(Math.floor(4.3) + "<br>");
+        document.write(Math.ceil(3.5) + "<br>");
+
+        var fruits = ["Apple", "banana", "cherry", "orange", "mango"];
+        document.write(fruits[2] + "<br>");
+        document.write(fruits[1] + "<br>");
+        document.write(fruits[0] + "<br>");
+        document.write(fruits[3] + "<br>");
+
+        document.write(fruits.join("*") + "<br>");
+        fruits.pop()
+        document.write(fruits + "<br>");
+
+
+    </script>
+</body>
